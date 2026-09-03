@@ -1,7 +1,5 @@
 import os
 import streamlit as st
-import chromadb
-from sentence_transformers import SentenceTransformer
 import google.generativeai as genai
 from dotenv import load_dotenv
 
@@ -11,8 +9,12 @@ st.title("📚 Chat with your Notes")
 
 # --- CACHING HEAVY MODELS ---
 # We cache these so Streamlit doesn't reload them every time you ask a question
-@st.cache_resource
+@st.cache_resource(show_spinner="Loading AI Models (this takes a few seconds on startup)...")
 def load_models():
+    # Moving heavy imports here so they don't block the initial page load!
+    import chromadb
+    from sentence_transformers import SentenceTransformer
+    
     embedder = SentenceTransformer('all-MiniLM-L6-v2')
     client = chromadb.PersistentClient(path="./chroma_db")
     collection = client.get_or_create_collection(name="my_notes")
