@@ -1,0 +1,18 @@
+# Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Keys and Secrets
+.env
+
+# Vector Database
+chroma_db/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
