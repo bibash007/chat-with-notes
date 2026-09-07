@@ -59,7 +59,7 @@ with st.sidebar:
                     end = start + chunk_size
                     chunks.append(content[start:end])
                     start += chunk_size - overlap
-                
+                    
                 for i, chunk in enumerate(chunks):
                     documents.append(chunk)
                     metadatas.append({"source": file.name, "chunk_index": i})
@@ -97,45 +97,48 @@ if prompt := st.chat_input("Ask a question about your notes..."):
         st.markdown(prompt)
     st.session_state.messages.append({"role": "user", "content": prompt})
 
-    # 1. Embed the query
-    query_embedding = embedder.encode(prompt).tolist()
-    
-    # 2. Retrieve relevant chunks
-    results = collection.query(
-        query_embeddings=[query_embedding],
-        n_results=3
-    )
-    
-    retrieved_chunks = results['documents'][0]
-    sources = results['metadatas'][0]
-    
-    if not retrieved_chunks:
-        response_text = "I couldn't find any relevant information in your notes."
+    if collection.count() == 0:
+        response_text = "I don't have any notes to search yet. Please upload and ingest a `.txt` file first."
     else:
-        # 3. Combine context
-        context = ""
-        unique_sources = set()
-        for i, chunk in enumerate(retrieved_chunks):
-            source_file = sources[i]['source']
-            unique_sources.add(source_file)
-            context += f"\n--- From {source_file} ---\n{chunk}\n"
+        # 1. Embed the query
+        query_embedding = embedder.encode(prompt).tolist()
         
-        # 4. Generate answer with Gemini
-        llm_prompt = f"""
-        You are a helpful assistant. Use the following context retrieved from my personal notes to answer my question. 
-        If the answer is not in the context, just say "I don't know based on your notes."
+        # 2. Retrieve relevant chunks
+        results = collection.query(
+            query_embeddings=[query_embedding],
+            n_results=3
+        )
         
-        Context from Notes:
-        {context}
+        retrieved_chunks = results['documents'][0]
+        sources = results['metadatas'][0]
         
-        Question: {prompt}
-        
-        Answer:
-        """
-        
-        response = model.generate_content(llm_prompt)
-        # Append the sources dynamically
-        response_text = response.text + f"\n\n*(Sources: {', '.join(unique_sources)})*"
+        if not retrieved_chunks:
+            response_text = "I couldn't find any relevant information in your notes."
+        else:
+            # 3. Combine context
+            context = ""
+            unique_sources = set()
+            for i, chunk in enumerate(retrieved_chunks):
+                source_file = sources[i]['source']
+                unique_sources.add(source_file)
+                context += f"\n--- From {source_file} ---\n{chunk}\n"
+            
+            # 4. Generate answer with Gemini
+            llm_prompt = f"""
+            You are a helpful assistant. Use the following context retrieved from my personal notes to answer my question. 
+            If the answer is not in the context, just say "I don't know based on your notes."
+            
+            Context from Notes:
+            {context}
+            
+            Question: {prompt}
+            
+            Answer:
+            """
+            
+            response = model.generate_content(llm_prompt)
+            # Append the sources dynamically
+            response_text = response.text + f"\n\n*(Sources: {', '.join(unique_sources)})*"
     
     # Display assistant response
     with st.chat_message("assistant"):
