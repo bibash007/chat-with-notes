@@ -36,3 +36,7 @@ Each ingested chunk is stored with its source filename and chunk index. This met
 ### Chunking Strategy
 
 The current application uses a simple fixed-size character window with overlap. The overlap helps preserve context when a sentence or idea crosses a chunk boundary.
+
+### Embedding Model
+
+The project uses the `all-MiniLM-L6-v2` sentence-transformer model for both document and query embeddings. Using the same embedding model for both sides keeps vectors in the same semantic space.
