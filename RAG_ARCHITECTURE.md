@@ -32,3 +32,7 @@ The ingestion phase creates the searchable knowledge base. The query phase reuse
 ### Ingestion Contract
 
 Each ingested chunk is stored with its source filename and chunk index. This metadata makes it possible for the application to identify where retrieved context came from when displaying sources.
+
+### Chunking Strategy
+
+The current application uses a simple fixed-size character window with overlap. The overlap helps preserve context when a sentence or idea crosses a chunk boundary.
