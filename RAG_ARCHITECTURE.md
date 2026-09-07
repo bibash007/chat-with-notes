@@ -76,3 +76,7 @@ Chat messages are stored in Streamlit session state for the current browser sess
 ### Secret Handling
 
 The Gemini API key is loaded from the `GEMINI_API_KEY` environment variable. The key should stay in a local `.env` file and must never be committed to source control.
+
+### Current Scope
+
+The project is intentionally focused on a simple educational RAG pipeline: text ingestion, local embeddings, vector search, prompt assembly, and Gemini generation. Advanced features such as reranking, hybrid search, authentication, and multi-format parsing are outside the current scope.
