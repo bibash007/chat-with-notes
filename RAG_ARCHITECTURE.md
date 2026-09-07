@@ -56,3 +56,7 @@ After generation, the UI lists the distinct note filenames represented in the re
 ### Empty Database Behavior
 
 A new or freshly cleared database can contain no chunks. The application checks this condition before running vector retrieval and shows a setup message instead of querying an empty collection.
+
+### Local Persistence
+
+ChromaDB uses a persistent local directory at `./chroma_db`. The vector collection therefore survives normal application restarts without requiring an external database service.
