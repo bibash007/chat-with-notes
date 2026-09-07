@@ -44,3 +44,7 @@ The project uses the `all-MiniLM-L6-v2` sentence-transformer model for both docu
 ### Retrieval Strategy
 
 For each question, the application embeds the query and asks ChromaDB for the three closest stored chunks. Keeping the retrieved set small limits unnecessary context sent to the language model.
+
+### Prompt Construction
+
+Retrieved chunks are labeled with their source filenames and combined with the user's question. The resulting prompt gives Gemini the evidence it should use before producing the answer.
