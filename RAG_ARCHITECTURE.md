@@ -60,3 +60,7 @@ A new or freshly cleared database can contain no chunks. The application checks 
 ### Local Persistence
 
 ChromaDB uses a persistent local directory at `./chroma_db`. The vector collection therefore survives normal application restarts without requiring an external database service.
+
+### Upload Format
+
+The current UI intentionally accepts plain `.txt` files. Keeping ingestion text-only makes the parsing path simple and predictable while the project focuses on core RAG concepts.
