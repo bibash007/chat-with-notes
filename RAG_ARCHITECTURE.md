@@ -64,3 +64,7 @@ ChromaDB uses a persistent local directory at `./chroma_db`. The vector collecti
 ### Upload Format
 
 The current UI intentionally accepts plain `.txt` files. Keeping ingestion text-only makes the parsing path simple and predictable while the project focuses on core RAG concepts.
+
+### Dependency Roles
+
+`streamlit` provides the interface, `sentence-transformers` creates embeddings, `chromadb` stores and retrieves vectors, `google-generativeai` calls Gemini, and `python-dotenv` loads configuration from the environment.
