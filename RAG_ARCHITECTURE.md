@@ -40,3 +40,7 @@ The current application uses a simple fixed-size character window with overlap. 
 ### Embedding Model
 
 The project uses the `all-MiniLM-L6-v2` sentence-transformer model for both document and query embeddings. Using the same embedding model for both sides keeps vectors in the same semantic space.
+
+### Retrieval Strategy
+
+For each question, the application embeds the query and asks ChromaDB for the three closest stored chunks. Keeping the retrieved set small limits unnecessary context sent to the language model.
