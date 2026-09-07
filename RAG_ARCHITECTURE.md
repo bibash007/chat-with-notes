@@ -48,3 +48,7 @@ For each question, the application embeds the query and asks ChromaDB for the th
 ### Prompt Construction
 
 Retrieved chunks are labeled with their source filenames and combined with the user's question. The resulting prompt gives Gemini the evidence it should use before producing the answer.
+
+### Source Attribution
+
+After generation, the UI lists the distinct note filenames represented in the retrieved context. This keeps answers connected to the underlying notes without changing the retrieval algorithm.
