@@ -52,3 +52,7 @@ Retrieved chunks are labeled with their source filenames and combined with the u
 ### Source Attribution
 
 After generation, the UI lists the distinct note filenames represented in the retrieved context. This keeps answers connected to the underlying notes without changing the retrieval algorithm.
+
+### Empty Database Behavior
+
+A new or freshly cleared database can contain no chunks. The application checks this condition before running vector retrieval and shows a setup message instead of querying an empty collection.
