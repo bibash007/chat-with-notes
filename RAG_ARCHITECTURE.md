@@ -28,3 +28,7 @@ flowchart TD
 ### Data Flow
 
 The ingestion phase creates the searchable knowledge base. The query phase reuses that knowledge base to answer questions.
+
+### Ingestion Contract
+
+Each ingested chunk is stored with its source filename and chunk index. This metadata makes it possible for the application to identify where retrieved context came from when displaying sources.
