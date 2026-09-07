@@ -68,3 +68,7 @@ The current UI intentionally accepts plain `.txt` files. Keeping ingestion text-
 ### Dependency Roles
 
 `streamlit` provides the interface, `sentence-transformers` creates embeddings, `chromadb` stores and retrieves vectors, `google-generativeai` calls Gemini, and `python-dotenv` loads configuration from the environment.
+
+### Conversation History
+
+Chat messages are stored in Streamlit session state for the current browser session. The history is presentation state; it is not added to the vector database and does not change document retrieval.
