@@ -72,3 +72,7 @@ The current UI intentionally accepts plain `.txt` files. Keeping ingestion text-
 ### Conversation History
 
 Chat messages are stored in Streamlit session state for the current browser session. The history is presentation state; it is not added to the vector database and does not change document retrieval.
+
+### Secret Handling
+
+The Gemini API key is loaded from the `GEMINI_API_KEY` environment variable. The key should stay in a local `.env` file and must never be committed to source control.
