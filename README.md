@@ -91,3 +91,7 @@ ChromaDB uses a persistent local directory for the vector collection. The stored
 ## Retrieval Limit
 
 The current retrieval step intentionally keeps the context small by requesting three matching chunks for each question.
+
+## Chunk Overlap
+
+Note chunks use a small overlap so nearby context is less likely to be lost at a chunk boundary.
