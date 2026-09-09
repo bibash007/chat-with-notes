@@ -71,3 +71,7 @@ Each retrieved chunk keeps its source filename. The application collects the dis
 ## Conversation History
 
 Chat messages are stored in Streamlit session state for the current browser session. This history is separate from the vector database.
+
+## Input Format
+
+The current interface accepts plain `.txt` files. This keeps the ingestion path simple and avoids adding document parsers that are not needed for the core RAG workflow.
