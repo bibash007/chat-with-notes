@@ -51,3 +51,7 @@ This project is a completely scratch-built RAG application designed to understan
 3. Ask a question in the chat box.
 4. The application retrieves relevant note chunks and sends them to Gemini.
 5. The answer is displayed together with its source filenames.
+
+## Note Ingestion
+
+Uploaded files are decoded as UTF-8 text and split into small overlapping chunks before embedding. Each chunk keeps the original filename and its position as metadata.
