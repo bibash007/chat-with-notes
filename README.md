@@ -111,3 +111,7 @@ The local embedding step keeps note embeddings on the local machine. Only the re
 ## Learning Goal
 
 The project is intentionally small so the core RAG pipeline can be understood without hiding the retrieval and generation steps behind a large framework.
+
+## Project Status
+
+This repository is a focused learning implementation of a local RAG workflow. Changes should preserve that simple architecture unless a new feature clearly improves the learning value.
