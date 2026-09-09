@@ -103,3 +103,7 @@ The embedding model converts both notes and questions into vectors. Gemini is us
 ## Application Boundary
 
 The project keeps ingestion, retrieval, and generation in a small Streamlit application. There is no separate backend service required for the local workflow.
+
+## Privacy Note
+
+The local embedding step keeps note embeddings on the local machine. Only the retrieved context used for answering is sent to the configured Gemini API.
