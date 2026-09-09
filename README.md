@@ -75,3 +75,7 @@ Chat messages are stored in Streamlit session state for the current browser sess
 ## Input Format
 
 The current interface accepts plain `.txt` files. This keeps the ingestion path simple and avoids adding document parsers that are not needed for the core RAG workflow.
+
+## Dependencies
+
+The main runtime dependencies are listed in `requirements.txt`, keeping environment setup reproducible for local development.
