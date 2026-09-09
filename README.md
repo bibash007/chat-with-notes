@@ -87,3 +87,7 @@ The Gemini API key is read from `GEMINI_API_KEY`. Keep the actual key in a local
 ## Local Storage
 
 ChromaDB uses a persistent local directory for the vector collection. The stored embeddings therefore remain available after a normal application restart.
+
+## Retrieval Limit
+
+The current retrieval step intentionally keeps the context small by requesting three matching chunks for each question.
