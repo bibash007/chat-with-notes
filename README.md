@@ -43,3 +43,11 @@ This project is a completely scratch-built RAG application designed to understan
 - Retrieve the three closest chunks for each question.
 - Generate answers with Gemini using retrieved note context.
 - Display the source note filenames used for an answer.
+
+## User Flow
+
+1. Upload one or more `.txt` files.
+2. Ingest the uploaded files into ChromaDB.
+3. Ask a question in the chat box.
+4. The application retrieves relevant note chunks and sends them to Gemini.
+5. The answer is displayed together with its source filenames.
