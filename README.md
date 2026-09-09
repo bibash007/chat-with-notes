@@ -67,3 +67,7 @@ The retrieved chunks are assembled with the user's question into a prompt. Gemin
 ## Source Attribution
 
 Each retrieved chunk keeps its source filename. The application collects the distinct source names and shows them below the generated answer.
+
+## Conversation History
+
+Chat messages are stored in Streamlit session state for the current browser session. This history is separate from the vector database.
