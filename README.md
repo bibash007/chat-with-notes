@@ -63,3 +63,7 @@ For each question, the same embedding model is used to represent the query. Chro
 ## Generation
 
 The retrieved chunks are assembled with the user's question into a prompt. Gemini uses that retrieved context to generate the final response.
+
+## Source Attribution
+
+Each retrieved chunk keeps its source filename. The application collects the distinct source names and shows them below the generated answer.
