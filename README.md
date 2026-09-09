@@ -99,3 +99,7 @@ Note chunks use a small overlap so nearby context is less likely to be lost at a
 ## Model Roles
 
 The embedding model converts both notes and questions into vectors. Gemini is used only after relevant note context has been retrieved.
+
+## Application Boundary
+
+The project keeps ingestion, retrieval, and generation in a small Streamlit application. There is no separate backend service required for the local workflow.
