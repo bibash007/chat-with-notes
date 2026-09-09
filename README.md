@@ -107,3 +107,7 @@ The project keeps ingestion, retrieval, and generation in a small Streamlit appl
 ## Privacy Note
 
 The local embedding step keeps note embeddings on the local machine. Only the retrieved context used for answering is sent to the configured Gemini API.
+
+## Learning Goal
+
+The project is intentionally small so the core RAG pipeline can be understood without hiding the retrieval and generation steps behind a large framework.
