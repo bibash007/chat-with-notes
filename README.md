@@ -35,3 +35,11 @@ This project is a completely scratch-built RAG application designed to understan
    ```bash
    python 2_chat.py
    ```
+
+## Features
+
+- Upload plain-text notes directly in the Streamlit interface.
+- Generate local embeddings for note chunks.
+- Retrieve the three closest chunks for each question.
+- Generate answers with Gemini using retrieved note context.
+- Display the source note filenames used for an answer.
