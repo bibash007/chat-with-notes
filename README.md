@@ -79,3 +79,7 @@ The current interface accepts plain `.txt` files. This keeps the ingestion path 
 ## Dependencies
 
 The main runtime dependencies are listed in `requirements.txt`, keeping environment setup reproducible for local development.
+
+## Environment Configuration
+
+The Gemini API key is read from `GEMINI_API_KEY`. Keep the actual key in a local `.env` file rather than committing it to the repository.
