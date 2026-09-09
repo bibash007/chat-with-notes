@@ -83,3 +83,7 @@ The main runtime dependencies are listed in `requirements.txt`, keeping environm
 ## Environment Configuration
 
 The Gemini API key is read from `GEMINI_API_KEY`. Keep the actual key in a local `.env` file rather than committing it to the repository.
+
+## Local Storage
+
+ChromaDB uses a persistent local directory for the vector collection. The stored embeddings therefore remain available after a normal application restart.
