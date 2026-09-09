@@ -95,3 +95,7 @@ The current retrieval step intentionally keeps the context small by requesting t
 ## Chunk Overlap
 
 Note chunks use a small overlap so nearby context is less likely to be lost at a chunk boundary.
+
+## Model Roles
+
+The embedding model converts both notes and questions into vectors. Gemini is used only after relevant note context has been retrieved.
