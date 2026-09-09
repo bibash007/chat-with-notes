@@ -59,3 +59,7 @@ Uploaded files are decoded as UTF-8 text and split into small overlapping chunks
 ## Retrieval
 
 For each question, the same embedding model is used to represent the query. ChromaDB then returns the three closest chunks from the stored notes.
+
+## Generation
+
+The retrieved chunks are assembled with the user's question into a prompt. Gemini uses that retrieved context to generate the final response.
