@@ -55,3 +55,7 @@ This project is a completely scratch-built RAG application designed to understan
 ## Note Ingestion
 
 Uploaded files are decoded as UTF-8 text and split into small overlapping chunks before embedding. Each chunk keeps the original filename and its position as metadata.
+
+## Retrieval
+
+For each question, the same embedding model is used to represent the query. ChromaDB then returns the three closest chunks from the stored notes.
