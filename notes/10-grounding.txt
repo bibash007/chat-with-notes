@@ -1,0 +1,1 @@
+Grounding means answering with evidence retrieved from the connected knowledge base. If the needed information is absent, the assistant should avoid inventing an answer.
