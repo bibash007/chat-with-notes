@@ -1,0 +1,1 @@
+RAG combines retrieval with generation. Instead of asking an LLM to answer from memory alone, the application first retrieves relevant information and then uses that information as context for the answer.
