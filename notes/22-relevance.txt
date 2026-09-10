@@ -1,0 +1,1 @@
+Good retrieval should favor chunks that are semantically related to the question. Better relevance reduces unrelated context and gives the generator stronger evidence to work with.
