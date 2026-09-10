@@ -1,0 +1,1 @@
+Retrieved chunks become context for the language model. The application combines the relevant note text with the user's question before generation.
