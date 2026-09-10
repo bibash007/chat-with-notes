@@ -1,0 +1,1 @@
+Conversation history is kept in Streamlit session state for the active browser session. It controls what the user sees in the chat and is separate from document retrieval.
