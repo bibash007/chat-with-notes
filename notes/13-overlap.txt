@@ -1,0 +1,1 @@
+Chunk overlap keeps a small portion of neighboring text in adjacent chunks. This reduces the chance of losing useful context when an idea crosses a chunk boundary.
