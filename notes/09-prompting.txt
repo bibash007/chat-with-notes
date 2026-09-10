@@ -1,0 +1,1 @@
+Prompt construction gives the model instructions and the retrieved evidence together. A clear prompt helps keep the generated response grounded in the supplied notes.
