@@ -1,0 +1,1 @@
+Streamlit provides the user interface for the application. It handles note uploads, displays chat messages, and keeps conversation history in the current session.
