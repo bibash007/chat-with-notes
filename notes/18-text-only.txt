@@ -1,0 +1,1 @@
+Plain text notes keep the ingestion path predictable. A text-only input format also keeps the project focused on understanding the core RAG pipeline.
