@@ -1,0 +1,1 @@
+The retrieval step uses a small top-k result set. Returning only the closest chunks helps keep the context focused instead of sending unrelated notes to the language model.
