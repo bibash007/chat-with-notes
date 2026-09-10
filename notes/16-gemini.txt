@@ -1,0 +1,1 @@
+Gemini is used as the generation model after relevant note chunks have been retrieved. The model receives the assembled context and the user's question to produce the final response.
