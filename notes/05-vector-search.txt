@@ -1,0 +1,1 @@
+Vector search compares a query embedding with stored embeddings and returns the closest matches. This lets the application find relevant notes without requiring exact keyword matches.
