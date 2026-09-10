@@ -1,0 +1,1 @@
+Metadata adds information about a chunk beyond its text. In this project, the source filename and chunk index help identify where retrieved content came from.
