@@ -1,0 +1,1 @@
+A typical query follows a simple path: user question, query embedding, vector search, context assembly, model generation, and displayed answer.
