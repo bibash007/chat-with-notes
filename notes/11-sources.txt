@@ -1,0 +1,1 @@
+Source metadata connects retrieved chunks back to their original note files. Showing source names makes it easier to understand which notes contributed to an answer.
