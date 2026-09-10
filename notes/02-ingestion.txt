@@ -1,0 +1,1 @@
+Ingestion prepares source documents for search. The notes are read, divided into smaller chunks, converted into embeddings, and stored in the vector database.
