@@ -1,0 +1,1 @@
+The Gemini API key is configuration data rather than application source code. It should be supplied through an environment variable and kept out of version control.
