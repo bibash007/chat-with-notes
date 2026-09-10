@@ -1,0 +1,1 @@
+Chunking breaks a document into smaller pieces before embedding. Smaller chunks make retrieval more focused, while overlap helps preserve context between neighboring chunks.
