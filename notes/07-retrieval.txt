@@ -1,0 +1,1 @@
+Retrieval is the step where the application searches the vector database for useful chunks. The quality of retrieved context directly affects how useful the generated answer can be.
