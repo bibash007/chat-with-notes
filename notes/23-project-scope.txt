@@ -1,0 +1,1 @@
+This project keeps its scope intentionally small: ingest text notes, create embeddings, retrieve relevant chunks, and generate answers from that context. Keeping the pipeline simple makes each RAG step easier to study.
