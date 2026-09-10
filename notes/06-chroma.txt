@@ -1,0 +1,1 @@
+ChromaDB is used as the local vector database in this project. It stores document chunks and their embeddings so relevant context can be retrieved later.
