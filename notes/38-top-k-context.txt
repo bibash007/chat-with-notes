@@ -1,0 +1,1 @@
+The query currently asks ChromaDB for three results. A small result set keeps the generated prompt focused on the most relevant note chunks.
