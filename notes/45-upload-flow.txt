@@ -1,0 +1,1 @@
+The upload flow separates selecting files from ingesting them. Users can choose multiple text notes first and then trigger ingestion explicitly.
