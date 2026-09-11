@@ -1,0 +1,1 @@
+A complete RAG pipeline connects ingestion, retrieval, prompting, and generation.
