@@ -1,0 +1,1 @@
+Retrieval quality can drop when many weakly related chunks are included. A useful baseline is to favor a small set of strongly related results instead of maximizing the number of results.
