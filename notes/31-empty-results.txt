@@ -1,0 +1,1 @@
+An empty retrieval result should be handled explicitly. Instead of building a prompt with missing evidence, the application can return a clear message that no relevant information was found.
