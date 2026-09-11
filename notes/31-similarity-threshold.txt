@@ -1,0 +1,1 @@
+A similarity threshold can reject results that are too weakly related to the question. This is useful when returning a low-quality match would be worse than admitting that relevant context was not found.
