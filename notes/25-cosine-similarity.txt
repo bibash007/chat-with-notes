@@ -1,0 +1,1 @@
+Cosine similarity compares the direction of embedding vectors rather than their raw size. In semantic retrieval, a higher cosine similarity generally means the query and chunk are more closely related.
