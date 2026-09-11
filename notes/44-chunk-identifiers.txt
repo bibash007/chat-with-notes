@@ -1,0 +1,1 @@
+Each chunk receives an identifier based on its source filename and position. Stable identifiers make individual chunks easy to associate with their stored records.
