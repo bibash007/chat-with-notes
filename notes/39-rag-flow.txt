@@ -1,0 +1,1 @@
+RAG works by retrieving relevant note chunks before generation.
