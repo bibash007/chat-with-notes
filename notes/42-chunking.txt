@@ -1,0 +1,1 @@
+Chunking breaks long documents into smaller pieces for efficient retrieval.
