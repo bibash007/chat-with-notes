@@ -1,0 +1,1 @@
+Document ingestion is the preparation stage before chatting. This project reads plain text notes, divides their content into chunks, creates embeddings, and stores the chunks with metadata for later retrieval.
