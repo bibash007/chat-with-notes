@@ -1,0 +1,1 @@
+A RAG system separates knowledge retrieval from language generation.
