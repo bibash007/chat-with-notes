@@ -1,0 +1,1 @@
+An empty question should not trigger an unnecessary retrieval call. Handling empty input early keeps the interaction predictable and avoids wasted model work.
