@@ -1,0 +1,1 @@
+Retrieved context is the evidence selected from the vector database for a user question. The application combines these chunks before sending the request to Gemini, keeping the model focused on the relevant notes.
