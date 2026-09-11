@@ -1,0 +1,1 @@
+Preserving chunk order can help when retrieved text is presented back to the model. Ordered context makes passages easier to follow when meaning depends on nearby sections.
