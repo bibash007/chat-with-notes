@@ -1,0 +1,1 @@
+The project uses one embedding model for stored notes and user questions. This keeps both types of vectors in the same representation space for comparison.
