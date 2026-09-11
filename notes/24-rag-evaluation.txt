@@ -1,0 +1,1 @@
+RAG evaluation checks whether retrieval and generation work together. A useful baseline is to verify that the retrieved chunks actually contain information needed to answer the question.
