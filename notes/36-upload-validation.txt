@@ -1,0 +1,1 @@
+Upload validation should reject unsupported or empty inputs before ingestion. Early validation prevents bad documents from reaching later parsing and indexing steps.
