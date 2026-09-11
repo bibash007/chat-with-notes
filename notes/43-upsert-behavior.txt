@@ -1,0 +1,1 @@
+Upserting chunks lets an ingested note be written using stable chunk IDs. Re-ingesting the same note can therefore replace the existing chunk records instead of creating duplicates.
