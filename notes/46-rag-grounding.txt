@@ -1,0 +1,1 @@
+RAG reduces hallucination by grounding generation in retrieved context.
