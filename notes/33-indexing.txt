@@ -1,0 +1,1 @@
+Indexing prepares stored embeddings for efficient similarity lookup. The index lets a vector store find nearby representations without comparing a query with every stored item in the same way.
