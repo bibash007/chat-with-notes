@@ -1,0 +1,1 @@
+When retrieval does not provide enough information, the system should avoid treating a weak match as a reliable answer. Missing context is a useful signal for a cautious response.
