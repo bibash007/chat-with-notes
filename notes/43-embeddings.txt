@@ -1,0 +1,1 @@
+Embeddings represent text as vectors that capture semantic relationships.
