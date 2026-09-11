@@ -1,0 +1,1 @@
+Chunk overlap preserves text across neighboring chunks. More overlap can retain continuity, but it also creates repeated text and increases the amount of stored content.
