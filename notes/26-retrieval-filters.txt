@@ -1,0 +1,1 @@
+Metadata filters can narrow retrieval before similarity search. For example, filtering by document type or source can prevent unrelated notes from entering the context.
