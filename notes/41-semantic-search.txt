@@ -1,0 +1,1 @@
+Semantic search compares embeddings to find meaningfully related text.
