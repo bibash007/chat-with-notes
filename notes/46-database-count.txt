@@ -1,0 +1,1 @@
+The interface shows the current number of stored chunks. This gives a simple visible check that ingestion has added data to the local collection.
