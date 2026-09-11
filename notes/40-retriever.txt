@@ -1,0 +1,1 @@
+A retriever finds relevant chunks from the indexed knowledge base.
