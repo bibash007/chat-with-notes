@@ -1,0 +1,1 @@
+Plain text keeps the parsing path simple. The application can read the file contents directly before splitting them into chunks.
