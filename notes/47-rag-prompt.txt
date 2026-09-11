@@ -1,0 +1,1 @@
+A prompt combines the user question with retrieved context before generation.
