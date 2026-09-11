@@ -1,0 +1,1 @@
+The complete flow is simple: notes become chunks, chunks become vectors, a question becomes a vector, relevant chunks are retrieved, and Gemini uses that context to produce the answer.
