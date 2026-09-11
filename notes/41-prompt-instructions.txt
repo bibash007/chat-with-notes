@@ -1,0 +1,1 @@
+RAG prompts work best when instructions clearly separate the user's question from retrieved context. This makes the model's task easier to interpret and reduces accidental mixing of the two.
