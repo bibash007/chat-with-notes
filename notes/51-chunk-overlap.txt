@@ -1,0 +1,1 @@
+Chunk overlap preserves context that might otherwise be lost at chunk boundaries.
