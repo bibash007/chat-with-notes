@@ -1,0 +1,1 @@
+Conversation history allows the application to preserve context across turns.
