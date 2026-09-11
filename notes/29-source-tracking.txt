@@ -1,0 +1,1 @@
+Source tracking makes retrieved information easier to inspect. Keeping the originating document with a chunk also helps users understand where an answer came from.
