@@ -1,0 +1,1 @@
+Uploaded files are decoded into text before processing. This keeps the ingestion path predictable for ordinary note files.
