@@ -1,0 +1,1 @@
+Retrieval adds work before generation, so unnecessary searches can increase response time. Keeping the retrieval step focused helps balance answer quality and latency.
