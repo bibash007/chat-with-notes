@@ -1,0 +1,1 @@
+Good retrieval can reduce the amount of irrelevant context sent to the model.
