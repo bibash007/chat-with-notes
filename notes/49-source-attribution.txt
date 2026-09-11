@@ -1,0 +1,1 @@
+Source attribution helps users trace generated answers back to retrieved notes.
