@@ -1,0 +1,1 @@
+Retrieval quality directly affects the quality of the final generated answer.
