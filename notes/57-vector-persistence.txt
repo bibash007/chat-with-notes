@@ -1,0 +1,1 @@
+Persistent vector storage allows embeddings to be reused between application runs.
