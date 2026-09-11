@@ -1,0 +1,1 @@
+ChromaDB stores the vectors created during ingestion and is queried later with the vector created from a user question. It provides the search layer between the embedding model and the language model.
