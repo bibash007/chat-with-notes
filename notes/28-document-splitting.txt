@@ -1,0 +1,1 @@
+Document splitting determines the units that can be retrieved later. Splits should preserve enough local meaning so an answer does not depend on missing surrounding text.
