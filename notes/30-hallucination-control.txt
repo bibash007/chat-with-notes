@@ -1,0 +1,1 @@
+A grounded RAG prompt can reduce unsupported answers by instructing the model to use retrieved notes as evidence. This project also provides a fallback response when the answer is not present in the available context.
