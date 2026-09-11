@@ -1,0 +1,1 @@
+Duplicate chunks can appear when documents are uploaded more than once or when overlapping splits repeat content. Avoiding unnecessary duplicates keeps the vector store cleaner and retrieval more efficient.
