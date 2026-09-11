@@ -1,0 +1,1 @@
+Repeated ingestion should avoid creating unnecessary duplicate records. Stable document or chunk identifiers can make repeated uploads easier to detect and update safely.
