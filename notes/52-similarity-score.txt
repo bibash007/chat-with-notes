@@ -1,0 +1,1 @@
+A vector similarity score estimates how closely two embeddings are related.
