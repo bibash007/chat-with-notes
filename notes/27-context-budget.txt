@@ -1,0 +1,1 @@
+Retrieved text should stay focused on the question. Sending fewer useful chunks keeps the prompt smaller and leaves more room for the model's answer.
