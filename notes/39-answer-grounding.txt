@@ -1,0 +1,1 @@
+A grounded answer should rely on retrieved document content instead of unrelated model knowledge. This keeps responses aligned with the notes the user provided.
