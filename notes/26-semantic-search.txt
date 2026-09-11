@@ -1,0 +1,1 @@
+Semantic search looks for meaning instead of relying only on exact keywords. Embeddings make it possible for a query such as "study schedule" to retrieve a note that discusses a learning plan with different wording.
