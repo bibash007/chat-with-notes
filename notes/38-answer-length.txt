@@ -1,0 +1,1 @@
+Answer length should match the question. Concise answers reduce unnecessary generation while detailed questions can use more retrieved context when needed.
