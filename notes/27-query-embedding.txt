@@ -1,0 +1,1 @@
+The user query is embedded before retrieval. The resulting vector is compared with stored document vectors so the vector database can return the chunks that are closest in meaning to the question.
