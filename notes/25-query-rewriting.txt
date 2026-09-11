@@ -1,0 +1,1 @@
+Query rewriting can turn a vague user question into a clearer search query. In a RAG system, this can improve retrieval when the original wording does not match the stored notes.
