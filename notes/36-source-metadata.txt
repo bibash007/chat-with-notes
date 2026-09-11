@@ -1,0 +1,1 @@
+Source metadata connects a retrieved chunk back to its original note. The application keeps the filename and chunk index with each stored chunk.
