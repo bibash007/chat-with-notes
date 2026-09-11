@@ -1,0 +1,1 @@
+A RAG pipeline can fail at several boundaries: document loading, text splitting, embedding, retrieval, or generation. Checking each stage separately makes problems easier to isolate.
