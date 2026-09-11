@@ -1,0 +1,1 @@
+Chunk size controls the amount of text stored in each retrieval unit. Smaller chunks can improve precision, while larger chunks preserve more surrounding context. The current application uses 500 characters.
