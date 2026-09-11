@@ -1,0 +1,1 @@
+A simple way to debug RAG retrieval is to inspect the chunks returned for a known question. If useful text is missing, the issue may be in splitting, embeddings, indexing, or search settings.
