@@ -1,0 +1,6 @@
+RAG query flow:
+1. Receive the user's question.
+2. Convert the question into an embedding.
+3. Search the vector store for relevant chunks.
+4. Build a prompt from the retrieved context.
+5. Generate the final answer.
