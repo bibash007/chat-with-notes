@@ -1,0 +1,3 @@
+A RAG system should handle cases where useful chunks cannot be found.
+Returning a clear limitation is better than pretending unsupported
+information was retrieved.
