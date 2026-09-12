@@ -1,0 +1,3 @@
+Embeddings turn text into numerical vectors.
+Texts with similar meanings tend to have nearby vector representations.
+This makes semantic retrieval possible.
