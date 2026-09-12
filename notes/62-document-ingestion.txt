@@ -1,0 +1,3 @@
+Document ingestion prepares source material before querying.
+The process can load files, clean text, split content into chunks,
+and store the resulting embeddings.
