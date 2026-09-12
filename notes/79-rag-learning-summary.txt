@@ -1,0 +1,3 @@
+The main lesson from this project is that RAG connects a searchable
+knowledge base with a language model. Retrieval supplies evidence,
+while generation turns that evidence into a useful response.
