@@ -1,0 +1,3 @@
+RAG applications should consider where documents, embeddings, and prompts
+are stored. Sensitive information should not be exposed unnecessarily
+during retrieval or generation.
