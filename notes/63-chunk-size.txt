@@ -1,0 +1,3 @@
+Chunk size affects retrieval quality.
+Very small chunks may lose context, while very large chunks may include
+too much unrelated information.
