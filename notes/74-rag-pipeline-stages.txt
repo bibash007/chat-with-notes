@@ -1,0 +1,3 @@
+A practical RAG system can be viewed as two major pipelines:
+an ingestion pipeline that builds the knowledge base and a query pipeline
+that retrieves context and generates an answer.
