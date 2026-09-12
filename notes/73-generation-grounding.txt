@@ -1,0 +1,2 @@
+Generation should use retrieved context as evidence rather than ignoring
+it. Good prompting can encourage the model to stay grounded in that context.
