@@ -1,0 +1,3 @@
+The language model has a limited context window.
+RAG systems therefore need to retrieve useful information without
+filling the prompt with irrelevant content.
