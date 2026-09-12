@@ -1,0 +1,2 @@
+Chunk overlap keeps some text from the previous chunk in the next chunk.
+This helps preserve meaning when an important sentence crosses a boundary.
