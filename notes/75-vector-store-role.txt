@@ -1,0 +1,2 @@
+A vector store keeps embeddings together with the source information needed
+for retrieval. It acts as the searchable memory layer of a RAG application.
