@@ -1,0 +1,3 @@
+Retrieval and generation solve different problems.
+Retrieval finds relevant evidence from the knowledge base.
+Generation uses that evidence to produce a natural-language response.
