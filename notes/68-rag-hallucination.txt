@@ -1,0 +1,3 @@
+RAG can reduce hallucination by giving the model relevant external context.
+It does not guarantee correctness because retrieval and generation can
+still contain errors.
