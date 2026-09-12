@@ -1,0 +1,2 @@
+RAG evaluation can examine retrieval relevance, answer correctness,
+grounding, and whether the response uses the retrieved evidence.
