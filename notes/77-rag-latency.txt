@@ -1,0 +1,3 @@
+A RAG request can spend time on embedding creation, vector search,
+prompt construction, and model generation. Each stage can affect
+the overall response latency.
