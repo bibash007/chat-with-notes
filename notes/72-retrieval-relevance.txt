@@ -1,0 +1,3 @@
+Retrieval relevance asks whether the returned chunks actually help answer
+the user's question. Irrelevant retrieval reduces the quality of the
+generation stage.
