@@ -1,0 +1,3 @@
+Top-k retrieval returns a limited number of the highest-ranked chunks.
+Choosing k is a balance between providing enough evidence and avoiding
+unnecessary context.
