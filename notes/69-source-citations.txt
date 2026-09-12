@@ -1,0 +1,3 @@
+Source citations make retrieved evidence visible to the user.
+They improve transparency because a user can see which document chunks
+supported the generated answer.
